@@ -1,3 +1,52 @@
-* {
+/* * {
     border: 1px solid black
+} */
+header {
+  background-color: rgb(0, 153, 255);
+  margin-bottom: 5px;
+}
+header > h1 {
+  text-align: center;
+  color: white;
+}
+
+header > nav > ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+header > nav > ul > li {
+  list-style: none;
+  font-size: 30px;
+}
+
+header > nav > ul > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+main > form {
+  display: grid;
+  padding: 15px;
+  background-color: azure;
+}
+
+main > form > input {
+  margin-bottom: 5px;
+}
+main > form > label {
+  margin-bottom: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+main > form > textarea {
+  margin-bottom: 5px;
+}
+
+#submit-btn {
+    background-color: rgb(133, 133, 162);
+    color: white;
+    width: 100px;
+    margin: auto;
+    border-radius: 10px
 }
